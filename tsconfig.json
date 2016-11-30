@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "pixi.js.d.ts",
+    "SAT.d.ts",
+    "game/balls/AbstractBall.ts",
+    "game/balls/Ball.ts",
+    /**/
+    "game/bricks/BasicBrick.ts",
+    "game/bricks/BonusBrick.ts",
+    "game/bricks/Brick.ts",
+    "game/bricks/BrickType.ts",
+    "game/bricks/BrickConstructor.ts",
+    /**/
+    "game/collision/CollisionBody.ts",
+    "game/collision/CircleCollisionBody.ts",
+    "game/collision/NoCollisionBody.ts",
+    "game/collision/PolygonCollisionBody.ts",
+    "game/collision/CollisionResponse.ts",
+    /**/
+    "game/level/Level.ts",
+    "game/level/Levels.ts",
+    "game/level/PlayerDescription.ts",
+    "game/level/BrickDescription.ts",
+    "game/level/WallDescription.ts",
+    /**/
+    "game/player/InputConfig.ts",
+    "game/player/InputHandler.ts",
+    "game/player/Player.ts",
+    /**/
+    "game/utils/Size.ts",
+    "game/utils/Utils.ts",
+    /**/
+    "game/walls/Wall.ts",
+    /**/
+    "game/GameObject.ts",
+    "game/Settings.ts",
+    "ArkanoidGame.ts"
+  ]
+}

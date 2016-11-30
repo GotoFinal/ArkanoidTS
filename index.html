@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nah</title>
+    <style>
+        head, html, body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.0.0/pixi.js"></script>
+<script src="SAT.js"></script>
+<!--/**/-->
+<script src="game/utils/Size.js"></script>
+<script src="game/utils/Utils.js"></script>
+<!--/**/-->
+<script src="game/GameObject.js"></script>
+<script src="game/Settings.js"></script>
+<!--/**/-->
+<script src="game/balls/AbstractBall.js"></script>
+<script src="game/balls/Ball.js"></script>
+<!--/**/-->
+<script src="game/bricks/Brick.js"></script>
+<script src="game/bricks/BonusBrick.js"></script>
+<script src="game/bricks/BasicBrick.js"></script>
+<script src="game/bricks/BrickType.js"></script>
+<script src="game/bricks/BrickConstructor.js"></script>
+<!--/**/-->
+<script src="game/collision/CollisionBody.js"></script>
+<script src="game/collision/CircleCollisionBody.js"></script>
+<script src="game/collision/NoCollisionBody.js"></script>
+<script src="game/collision/PolygonCollisionBody.js"></script>
+<script src="game/collision/CollisionResponse.js"></script>
+<!--/**/-->
+<script src="game/level/BrickDescription.js"></script>
+<script src="game/level/Levels.js"></script>
+<script src="game/level/Level.js"></script>
+<script src="game/level/PlayerDescription.js"></script>
+<script src="game/level/WallDescription.js"></script>
+<!--/**/-->
+<script src="game/player/InputConfig.js"></script>
+<script src="game/player/InputHandler.js"></script>
+<script src="game/player/Player.js"></script>
+<!--/**/-->
+<script src="game/walls/Wall.js"></script>
+<!--/**/-->
+<script src="ArkanoidGame.js"></script>
+<script>
+    ArkanoidGame.createGame();
+    arkanoid.preload();
+</script>
+</body>
+</html>
