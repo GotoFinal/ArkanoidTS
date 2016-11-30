@@ -43,6 +43,6 @@
     /**/
     "game/GameObject.ts",
     "game/Settings.ts",
-    "ArkanoidGame.ts"
+    "game/ArkanoidGame.ts"
   ]
 }
